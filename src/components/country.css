@@ -17,3 +17,11 @@
     gap:10px;
     background:tomato;
 }
+.visitedCountry{
+    position: fixed;
+    left:0;
+    top:100px;
+    background:black;
+    color:white;
+    width:100%;
+}

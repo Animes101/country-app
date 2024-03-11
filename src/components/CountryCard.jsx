@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import './country_card.css'
 
-function CountryCard({country}) {
+function CountryCard({country,onCount}) {
 
   const [visited ,setVisited]=useState(false);
 
@@ -16,6 +16,7 @@ function CountryCard({country}) {
         <img src={country.flags.png} alt={country.name.common} />
         <p>{country.flags?.alt || 'not found alt'}</p>
         <button onClick={handleVisited}>visited country</button>
+        <button onClick={()=>onCount(country.name.common)}>couunt country</button>
     </div>
   )
 }
