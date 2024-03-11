@@ -1,14 +1,16 @@
 
 import './App.css'
 
+import Country from './components/Country'
+
 function App() {
 
 
   return (
-    <>
-    <h1>hello world</h1>
+    <div>
+    <Country></Country>
 
-    </>
+    </div>
   )
 }
 

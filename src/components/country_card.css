@@ -1,0 +1,35 @@
+.card{
+    border:2px solid black;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.true-background{
+    background:green;
+}
+.false-background{
+    background:white;
+}
+.card h1{
+    font-size:40px;
+    font-weight: 900;
+    font-style: italic;
+    text-shadow: 2px 2px 3px red;
+    text-transform: uppercase;
+}
+.card img{
+    height: 200px;
+    border:2px dashed black;
+}
+.card p{
+    color:gray;
+    text-align: justify;
+}
+.card button{
+    width: 100%;
+    background:red;
+    color:white;
+    font-size:20px;
+    padding:5px 0;
+    cursor: pointer;
+}
